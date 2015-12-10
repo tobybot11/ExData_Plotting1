@@ -3,6 +3,7 @@ plot1 <- function() {
     # Read in the data from the text file ..
     # 9 data fields with names separated by semi colon
     # 9 data fields separated by semi colon
+    # assume file is in this directory
     df <- read.table('household_power_consumption.txt', header = TRUE, sep = ';')
 
     # filter for the days 2007-02-01 and 2007-02-02
@@ -22,6 +23,7 @@ plot1 <- function() {
     dev.off()
 }
 
+plot1()
 
 
 
