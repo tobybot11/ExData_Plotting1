@@ -108,12 +108,13 @@ The four plots that you will need to construct are shown below.
 
 
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+![plot made by plot1.R](plot1.png)
 
 
 ### Plot 2
 
 ![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
-
+![plot made by plot2.R](plot2.png)
 
 ### Plot 3
 
