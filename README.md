@@ -1,3 +1,11 @@
+## How to execute
+
+assume R is installed, Runscript is available and the data is unzipped in this directory
+
+prompt> Runscript plot1.R
+
+Will output plot1.png .. and so forth for plots 1-4
+
 ## Introduction
 
 This assignment uses data from
