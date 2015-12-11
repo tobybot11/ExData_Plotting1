@@ -6,6 +6,10 @@ prompt> Runscript plot1.R
 
 Will output plot1.png .. and so forth for plots 1-4
 
+On Mac can use open to view in Preview or whatever the default app is for .png extension
+
+prompt> open plot1.png
+
 ## Introduction
 
 This assignment uses data from
