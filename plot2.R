@@ -15,9 +15,6 @@ plot2 <- function() {
     # add a unixDateTime column 
     df$unixDateTime <- as.numeric(as.POSIXct(paste(df$Date, df$Time), format="%d/%m/%Y %H:%M:%S"))
 
-    # add a unixDate column
-    df$unixDate <- as.numeric(as.POSIXct(df$Date, format="%d/%m/%Y"))
-
     # output to plot1.png
     png('plot2.png')
 
