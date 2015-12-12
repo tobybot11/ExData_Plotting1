@@ -15,7 +15,7 @@ plot2 <- function() {
     # add a unixDateTime column 
     df$unixDateTime <- as.numeric(as.POSIXct(paste(df$Date, df$Time), format="%d/%m/%Y %H:%M:%S"))
 
-    # output to plot1.png
+    # output to plot2.png
     png('plot2.png')
 
     # date range for the x axis scale

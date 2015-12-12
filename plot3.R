@@ -20,7 +20,7 @@ plot3 <- function() {
     date_range <- c('1/2/2007', '2/2/2007', '3/2/2007')
     date_range <- as.numeric(as.POSIXct(date_range, format="%d/%m/%Y"))
 
-    # Output to plot1.png
+    # Output to plot3.png
     png('plot3.png')
 
     # plot Sub_metering_1,2,3 vs. Unix Date Time
